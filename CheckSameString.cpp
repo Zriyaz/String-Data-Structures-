@@ -2,7 +2,7 @@
 using namespace std;
 bool allCharactersSame(string str)
 {
-  for(i=0;i<n;i++)
+  for(int i=0;i<str.length();i++)
   {
     if(str[i]!=str[0])
     return false;
